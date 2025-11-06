@@ -1,6 +1,6 @@
 services:
   web:
-    build: .
+    image: "abhivishwakarma/cicdproject: latest"
     ports:
       - "5000:5000"
     volumes:
